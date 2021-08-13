@@ -1,1 +1,5 @@
 /local.properties
+/.gradle/buildOutputCleanup/cache.properties
+/.gradle/buildOutputCleanup/outputFiles.bin
+/.gradle/7.0.2/fileHashes/resourceHashesCache.bin
+/.gradle/7.0.2/javaCompile/taskHistory.bin
