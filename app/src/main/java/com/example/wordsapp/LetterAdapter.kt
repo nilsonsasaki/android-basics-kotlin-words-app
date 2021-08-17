@@ -15,6 +15,7 @@
  */
 package com.example.wordsapp
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Build
@@ -66,8 +67,8 @@ class LetterAdapter :
         holder.button.text = item.toString()
         holder.button.setOnClickListener{
             val context = holder.view.context
-            val intent = Intent(context,DetailActivity::class.java)
-            intent.putExtra(DetailActivity.LETTER, holder.button.text.toString())
+            val intent = Intent(context,activity.intent)
+            intent.putExtra(WordListFragment.LETTER, holder.button.text.toString())
             context.startActivity(intent)
         }
     }
